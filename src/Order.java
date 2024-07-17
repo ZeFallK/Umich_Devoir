@@ -34,7 +34,7 @@ public class Order {
         }
     }
 
-    // Getters and setters for itemCount, itemCost and ShippingCost
+
     public int getItemCount() {
         return itemCount;
     }
