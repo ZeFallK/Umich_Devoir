@@ -2,9 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
-    private int id;
+    private final int id;
     private int itemCount;
     private double itemCost;
+    private double shippingCost = 7.99;  // Default shipping cost
     private List<OrderObserver> observers = new ArrayList<>();
 
     public Order(int id) {
@@ -14,6 +15,9 @@ public class Order {
     public void addItem(double price) {
         // Add logic to add an item
         // and notify observers
+        this.itemCost += price;
+        this.itemCount++;
+        notifyObservers();
     }
 
     public void addObserver(OrderObserver observer) {
@@ -30,7 +34,7 @@ public class Order {
         }
     }
 
-    // Getters and setters for itemCount et itemCost
+    // Getters and setters for itemCount, itemCost and ShippingCost
     public int getItemCount() {
         return itemCount;
     }
@@ -44,5 +48,12 @@ public class Order {
 
     public void setItemCount(int itemCount) {
         this.itemCount = itemCount;
+    }
+    public double getShippingCost() {
+        return shippingCost;
+    }
+
+    public void setShippingCost(double shippingCost) {
+        this.shippingCost = shippingCost;
     }
 }

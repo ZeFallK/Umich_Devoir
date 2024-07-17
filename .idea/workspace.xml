@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69176be1-d868-4e10-b622-8cb1e94e2d8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OrderObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PriceObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuantityObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuantityObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuantityObserver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721248986000</updated>
-      <workItem from="1721248987074" duration="2345000" />
+      <workItem from="1721248987074" duration="2617000" />
     </task>
     <servers />
   </component>
