@@ -7,7 +7,7 @@ public class QuantityObserver implements OrderObserver {
             System.out.println("QuantityObserver: Free shipping applied. Shipping cost: " + order.getShippingCost());
         } else {
             order.setShippingCost(10); // Default shipping cost
-            System.out.println("QuantityObserver: Default shipping cost applied. Shipping cost : " + order.getShippingCost());
+            System.out.println("QuantityObserver: Default shipping cost applied.  Shipping cost : " + order.getShippingCost());
         }
     }
 }

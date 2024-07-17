@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-
 public class Order {
     private final int id;
     private int itemCount;
